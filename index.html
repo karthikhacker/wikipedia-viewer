@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <title>Wikipedia viewer</title>
+  </head>
+  <body>
+    <section id="weather-app">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+             <h1>Wikipedia viewer</h1>
+          </div>
+        </div>
+      </div><!--End of container -->
+      <div class="container">
+         <div class="row">
+           <div class="col-sm-12 col-md-10 col-lg-8 col-lg-offset-2">
+             <form class="form-inline" >
+               <div class="form-group">
+                 <input type="text" id="searchText" name="" placeholder="search for wiki's"  class="form-control">
+               </div>
+               <button type="button" id="search" name="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
+             </form>
+           </div><!--End of col-sm-12-->
+           <div class="col-sm-12 col-md-10 col-lg-8 col-lg-offset-2">
+             <div class="wrapper"><span id="error"></span></div>
+           </div><!--End of col-sm-12-->
+         </div>
+      </div>
+    </section>
+  </body>
+</html>
